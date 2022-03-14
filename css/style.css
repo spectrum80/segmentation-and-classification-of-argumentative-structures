@@ -47,29 +47,57 @@ table {
 	border-spacing: 0;
 }
 
+/* main css starts here */
+body {
+	background-color: #222831;
+}
+textarea {
+	background-color: #393E46;
+	color: #EDEDED;
+	border: none;
+}
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: #EDEDED;
+}
+
 #main {
+	margin-top: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-#submit-btn {
-	margin: 0px 20px;
-	width: 80px;
-}
 .btn {
 	border: none;
 	display: block;
 	text-decoration: none;
-	font-size: 15px;
+	margin: 50px 30px;
+	width: 80px;
+	font-size: 16px;
 	padding: 10px;
 	border-radius: 50px;
-	width: 170px;
 	text-align: center;
 	cursor: pointer;
+	transition: transform 0.25s;
+}
+
+.btn:hover {
+	transform: scale(1.1);
 }
 
 .blue-btn {
-	color: #fff;
-	background: #339DFF;
+	color: #EEEEEE;
+	background-color: #339DFF;
+}
+
+.brown-btn {
+	color: #EEEEEE;
+	background-color: #D65A31;
+}
+
+.grey-btn {
+	color: #EEEEEE;
+	background-color: darkslategray;
 }

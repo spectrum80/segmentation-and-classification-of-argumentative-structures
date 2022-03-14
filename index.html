@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js" defer></script>
-    <title>Feedback on Student Writing</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+  <title>Feedback on Student Writing</title>
 </head>
 <body>
-    <div id="main">
-        <textarea name="input" class="buf input" cols="80" rows="30"></textarea>
-        <button type="submit" id='submit-btn' class="btn blue-btn">➔</button>
-        <textarea name="output" class="buf output" cols="80" rows="30"></textarea>
+  <h1>Feedback on Student Writing</h1>
+  <div id="main">
+    <textarea name="input" class="buf input" cols="80" rows="30"></textarea>
+    <div id="buttons">
+      <button type="submit" id='submit-btn' class="btn brown-btn">➔</button>
+      <button type="clear" id='clear-btn' class="btn grey-btn">Clear</button>
     </div>
+    <textarea name="output" class="buf output" cols="80" rows="30"></textarea>
+  </div>
 </body>
 </html>
